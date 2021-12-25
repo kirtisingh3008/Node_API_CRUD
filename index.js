@@ -9,7 +9,7 @@ const PORT = 5000;
 // specifying port of our aplication , you can choose any port 
 app.use(bodyParser.json)
 //it says we are going to use json data in our body
-app.use("/people", usersRoutes);
+app.use("/users", usersRoutes);
 
 app.get("/", (req, res) => res.send("Welcome to the Users API!"));
 
